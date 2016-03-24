@@ -1,0 +1,155 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+body {
+    background-color: lightblue;
+}
+
+.clearfix {
+        clear: both;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid black;
+    margin-bottom: 20px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    width: 12%;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+#banner {
+    width: 100%;
+    height: 150px; 
+    background-color: gray;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+aside {
+/*    margin: 0px auto;*/
+    overflow: hidden;
+    padding: 0 auto;
+}
+
+.aside-row {
+    width: 25%;
+    height: 150px;
+    background-color: gray;
+    border: 1px solid black;
+    float: left;
+    margin: 0 auto 0 0;
+/*    margin: 20px;*/
+/*    margin: 0px auto;*/
+
+}
+
+/*.aside-row:nth-child(1) {
+    margin: 0 20px;
+    margin-left: 20;
+}
+
+.aside-row:nth-child(2) {
+    margin: 0 20px;
+    margin-right: 0;
+}
+
+.aside-row:nth-child(3) {
+    margin: 0 20px;
+}*/
+
+footer {
+    width: 100%;
+    height: 150px; 
+    background-color: gray;
+    clear: both;
+    overflow: auto;
+    margin-top: 40px;
+
+}
+
+.footer-box {
+    width: 27%;
+    height: 110px;
+    background-color: #849fb4;
+    border: 1px solid black;
+    float: left;
+/*    margin: 20px;*/
+    margin: 20px auto;
+}
+
+.footer-box:nth-child(1) {
+    margin: 30px 60px;
+    margin-right: 0;
+}
+
+.footer-box:nth-child(2) {
+    margin: 30px 50px;
+    margin-right: 0;
+}
+
+.footer-box:nth-child(3) {
+    margin: 30px 50px;
+
+}
+
+@media screen and (max-width: 600px) {
+    header nav ul {
+        display: none;
+    }
+
+    header nav ul li {
+        float: none;
+        width: 100%;
+    }
+    #mobile-dropdown {
+        display: block;
+    }
+
+    button {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        float: right;
+        margin: 20px 20px 0 0;
+    }
+
+    .aside-row {
+        width: auto;
+        height: 100px;
+        background-color: red;
+        margin-bottom: 
+        float: none;
+    }
+
+    .aside-row:nth-child(3) {
+        display: none;
+    }
+
+
+
+}

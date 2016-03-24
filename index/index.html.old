@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Design</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+		</ul>
+		<div class="hamburger">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</nav>
+</header>
+<main>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, non aut tenetur totam, neque blanditiis nostrum corporis possimus sequi rerum reiciendis illum voluptates quidem dicta, ad quibusdam libero mollitia enim?
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. A optio at dolores officia tempora cum corporis laudantium eaque nostrum voluptate cupiditate saepe sunt impedit necessitatibus, iste quas quo libero minus.</p>
+</main>
+
+	<aside>
+		<div>Item</div>
+		<div>Item</div>
+		<div>Item</div>
+		<div>Item</div>
+	</aside>
+
+
+<footer>
+	<div></div>
+	<div></div>
+	<div></div>
+</footer>
+</body>
+</html>
